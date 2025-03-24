@@ -24,10 +24,10 @@ addLayer("t", {
     hotkeys: [
         {key: "p", description: "P: Reset for prestige points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    // upgrades: [
-    //     11: {
-    //         description: "Spawn in the garden. Unlock garden node. ",
-    //     }
-    // ],
+    upgrades: [
+        11: {
+            description: "Spawn in the garden. Unlock garden node. ",
+        }
+    ],
     layerShown(){return true}
 })
